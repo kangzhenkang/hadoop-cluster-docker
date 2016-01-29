@@ -1,0 +1,173 @@
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-123.el7.x86_64
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/java/jdk/jre
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_67-b01
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /root/soft/apache-tomcat-7.0.67
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /root/soft/apache-tomcat-7.0.67
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/root/soft/apache-tomcat-7.0.67/conf/logging.properties
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/root/soft/apache-tomcat-7.0.67/endorsed
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/root/soft/apache-tomcat-7.0.67
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/root/soft/apache-tomcat-7.0.67
+Jan 28, 2016 4:56:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/root/soft/apache-tomcat-7.0.67/temp
+Jan 28, 2016 4:56:06 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jan 28, 2016 4:56:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 28, 2016 4:56:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 28, 2016 4:56:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2230 ms
+Jan 28, 2016 4:56:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 28, 2016 4:56:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+Jan 28, 2016 4:56:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /root/soft/apache-tomcat-7.0.67/webapps/super-diamond-server.war
+Jan 28, 2016 4:56:12 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16:56:13,434 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:56:13,434 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:56:13,434 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/root/soft/apache-tomcat-7.0.67/webapps/super-diamond-server/WEB-INF/classes/logback.xml]
+16:56:13,593 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:56:13,622 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[/root/soft/apache-tomcat-7.0.67/webapps/super-diamond-server/WEB-INF/classes/logback.xml]] every 60 seconds. 
+16:56:13,622 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+16:56:13,671 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:56:13,675 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+16:56:13,989 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+16:56:13,989 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+16:56:13,989 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+16:56:13,990 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:56:13,992 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [super-diamond-server]
+16:56:14,042 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+16:56:14,044 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern app.log.dir_IS_UNDEFINED/diamond-server-web-%d.log for the active file
+16:56:14,061 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'app.log.dir_IS_UNDEFINED/diamond-server-web-%d.log'.
+16:56:14,061 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:56:14,061 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Thu Jan 28 16:56:14 EST 2016
+16:56:14,063 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:56:14,093 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[super-diamond-server] - Active log file name: app.log.dir_IS_UNDEFINED/diamond-server-web-2016-01-28.log
+16:56:14,093 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[super-diamond-server] - File property is set to [null]
+16:56:14,116 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:56:14,116 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [web-access-log]
+16:56:14,117 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+16:56:14,118 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern app.log.dir_IS_UNDEFINED/web-access-diamond-log-%d.log for the active file
+16:56:14,118 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'app.log.dir_IS_UNDEFINED/web-access-diamond-log-%d.log'.
+16:56:14,118 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:56:14,119 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Thu Jan 28 16:56:14 EST 2016
+16:56:14,119 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:56:14,120 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[web-access-log] - Active log file name: app.log.dir_IS_UNDEFINED/web-access-diamond-log-2016-01-28.log
+16:56:14,120 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[web-access-log] - File property is set to [null]
+16:56:14,120 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [web-access-log] to INFO
+16:56:14,121 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [web-access-log] to false
+16:56:14,121 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [web-access-log] to Logger[web-access-log]
+16:56:14,121 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+16:56:14,121 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+16:56:14,122 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [super-diamond-server] to Logger[ROOT]
+16:56:14,122 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:56:14,123 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@278e1674 - Registering current configuration as safe fallback point
+
+2016-01-28 16:56:14,153 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2016-01-28 16:56:14,438 INFO  [localhost-startStop-1] o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Jan 28 16:56:14 EST 2016]; root of context hierarchy
+2016-01-28 16:56:14,598 INFO  [localhost-startStop-1] o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [/root/soft/apache-tomcat-7.0.67/webapps/super-diamond-server/WEB-INF/classes/spring/application-common.xml]
+2016-01-28 16:56:15,363 INFO  [localhost-startStop-1] o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from file [/root/soft/apache-tomcat-7.0.67/webapps/super-diamond-server/WEB-INF/classes/spring/config-servlet.xml]
+2016-01-28 16:56:15,949 INFO  [localhost-startStop-1] o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [app.properties]
+2016-01-28 16:56:16,111 INFO  [localhost-startStop-1] o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@33a66bb6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,commonSqlSessionFactory,commonMapperScannerConfigurer,jdbcTemplate,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,pay_transactionAdvice,serviceOperations,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,diamondServerHandler,com.github.diamond.netty.DiamondServer#0,clientContoller,configController,indexContoller,moduleController,profileController,projectController,securityController,userController,configService,historyService,moduleService,projectService,userService,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.view.ContentNegotiatingViewResolver#0,contentNegotiationManager,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,mappingJacksonHttpMessageConverter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,confHistoryMapper,confProjectConfigMapper,confProjectMapper,confProjectModuleMapper,confUserMapper]; root of factory hierarchy
+Jan 28, 2016 4:56:18 PM com.alibaba.druid.pool.DruidDataSource info
+INFO: {dataSource-1} inited
+2016-01-28 16:56:20,073 INFO  [localhost-startStop-1] c.g.diamond.netty.DiamondServer - 启动 Diamond Netty Server
+2016-01-28 16:56:20,557 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryClients],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.ClientContoller.queryClients(org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,558 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/config/delete/{id}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ConfigController.deleteConfig(java.lang.String,java.lang.Long,java.lang.Long)
+2016-01-28 16:56:20,558 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/config/history/{type}/{configId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ConfigController.showHistory(java.lang.String,java.lang.Long,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,558 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/config/rollback/{hisId}/{configId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ConfigController.rollBackConfig(java.lang.Long,java.lang.Long,java.lang.String,java.lang.Integer,java.lang.Long,java.lang.String,java.lang.String,java.lang.Long,java.lang.String)
+2016-01-28 16:56:20,559 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/config/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ConfigController.saveConfig(java.lang.String,java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.Long,java.lang.Long,java.lang.Long,java.lang.Long,java.lang.String,java.lang.String,java.lang.Integer)
+2016-01-28 16:56:20,560 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.IndexContoller.index(org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,561 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/module/save],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ModuleController.save(java.lang.String,java.lang.Long,java.lang.String)
+2016-01-28 16:56:20,561 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/module/delete/{type}/{projectId}/{moduleId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ModuleController.delete(java.lang.String,java.lang.Long,java.lang.Long,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,563 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/profile/preview/{projectCode}/{type}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProfileController.preview(java.lang.String,java.lang.String,java.lang.Long,org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,563 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/profile/deploy/{projectCode}/{type}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProfileController.deploy(java.lang.String,java.lang.String,java.lang.Long,org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,563 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/profile/json/{projectId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.String>> com.github.diamond.web.controller.ProfileController.profileJson(java.lang.Long,java.lang.Long)
+2016-01-28 16:56:20,564 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/profile/{type}/{projectId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProfileController.profile(java.lang.String,java.lang.Long,java.lang.Long,java.lang.Integer,java.lang.String,org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,565 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.ProjectController.queryProjects(org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,565 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/new],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.ProjectController.newProject()
+2016-01-28 16:56:20,566 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProjectController.saveProject(com.github.diamond.web.model.ConfProject,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,566 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProjectController.deleteProject(long,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletResponse)
+2016-01-28 16:56:20,566 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/addUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.ProjectController.addUsers(long,org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,566 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/saveUser],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProjectController.saveUser(long,long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,566 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/project/deleteUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.ProjectController.deleteUser(long,long,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,568 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.SecurityController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2016-01-28 16:56:20,569 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.SecurityController.logout(javax.servlet.http.HttpServletRequest)
+2016-01-28 16:56:20,570 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.UserController.saveUser(com.github.diamond.web.model.ConfUser,java.lang.String,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,570 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.UserController.deleteUser(long,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,571 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/updatePassword],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.github.diamond.web.controller.UserController.updatePassword(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+2016-01-28 16:56:20,571 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.UserController.queryUsers(org.springframework.ui.ModelMap)
+2016-01-28 16:56:20,571 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/new],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.UserController.newUser()
+2016-01-28 16:56:20,571 INFO  [localhost-startStop-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/password],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.github.diamond.web.controller.UserController.password()
+2016-01-28 16:56:22,128 INFO  [localhost-startStop-1] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/error] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 16:56:22,128 INFO  [localhost-startStop-1] o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-28 16:56:22,158 INFO  [localhost-startStop-1] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2016-01-28 16:56:22,190 INFO  [localhost-startStop-1] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-01-28 16:56:22,308 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8152 ms
+2016-01-28 16:56:22,363 INFO  [localhost-startStop-1] o.s.w.servlet.DispatcherServlet - FrameworkServlet 'rest': initialization started
+2016-01-28 16:56:22,367 INFO  [localhost-startStop-1] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'rest-servlet': startup date [Thu Jan 28 16:56:22 EST 2016]; parent: Root WebApplicationContext
+2016-01-28 16:56:22,371 INFO  [localhost-startStop-1] o.s.w.c.s.AnnotationConfigWebApplicationContext - No annotated classes found for specified class/package [org.spring.rest]
+2016-01-28 16:56:22,374 INFO  [localhost-startStop-1] o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d3ff748: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@33a66bb6
+2016-01-28 16:56:22,408 INFO  [localhost-startStop-1] o.s.w.servlet.DispatcherServlet - FrameworkServlet 'rest': initialization completed in 45 ms
+Jan 28, 2016 4:56:22 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /root/soft/apache-tomcat-7.0.67/webapps/super-diamond-server.war has finished in 15,231 ms
+Jan 28, 2016 4:56:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/soft/apache-tomcat-7.0.67/webapps/ROOT
+Jan 28, 2016 4:56:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/soft/apache-tomcat-7.0.67/webapps/ROOT has finished in 100 ms
+Jan 28, 2016 4:56:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/soft/apache-tomcat-7.0.67/webapps/docs
+Jan 28, 2016 4:56:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/soft/apache-tomcat-7.0.67/webapps/docs has finished in 135 ms
+Jan 28, 2016 4:56:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/soft/apache-tomcat-7.0.67/webapps/examples
+Jan 28, 2016 4:56:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/soft/apache-tomcat-7.0.67/webapps/examples has finished in 634 ms
+Jan 28, 2016 4:56:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/soft/apache-tomcat-7.0.67/webapps/host-manager
+Jan 28, 2016 4:56:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/soft/apache-tomcat-7.0.67/webapps/host-manager has finished in 147 ms
+Jan 28, 2016 4:56:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/soft/apache-tomcat-7.0.67/webapps/manager
+Jan 28, 2016 4:56:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/soft/apache-tomcat-7.0.67/webapps/manager has finished in 102 ms
+Jan 28, 2016 4:56:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 28, 2016 4:56:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 28, 2016 4:56:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 16632 ms
+2016-01-28 17:09:55,178 INFO  [nioEventLoopGroup-3-1] c.g.d.netty.DiamondServerHandler - /192.168.164.128:49206 连接到服务器。
+2016-01-28 17:09:55,306 INFO  [nioEventLoopGroup-3-1] c.g.d.netty.DiamondServerHandler - *******channelRead0******* addrs:/192.168.164.128:49206
+2016-01-28 17:46:45,291 INFO  [nioEventLoopGroup-3-1] c.g.d.netty.DiamondServerHandler - /192.168.164.128:49206 断开连接。
+2016-01-28 18:28:11,659 INFO  [nioEventLoopGroup-3-2] c.g.d.netty.DiamondServerHandler - /192.168.164.128:55999 连接到服务器。
+2016-01-28 18:28:11,699 INFO  [nioEventLoopGroup-3-2] c.g.d.netty.DiamondServerHandler - *******channelRead0******* addrs:/192.168.164.128:55999
+2016-01-28 18:33:47,572 INFO  [nioEventLoopGroup-3-2] c.g.d.netty.DiamondServerHandler - /192.168.164.128:55999 断开连接。
+2016-01-28 18:39:39,726 INFO  [nioEventLoopGroup-3-1] c.g.d.netty.DiamondServerHandler - /192.168.164.128:56080 连接到服务器。
+2016-01-28 18:39:39,779 INFO  [nioEventLoopGroup-3-1] c.g.d.netty.DiamondServerHandler - *******channelRead0******* addrs:/192.168.164.128:56080
+2016-01-28 18:46:22,670 INFO  [nioEventLoopGroup-3-1] c.g.d.netty.DiamondServerHandler - /192.168.164.128:56080 断开连接。
